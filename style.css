@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    overflow: hidden;
+    /* display: flex; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    background-image: url(https://images.unsplash.com/photo-1591448764624-d7973a442bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(161, 159, 159); */
+     justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+#nav #s{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+#nav #a{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(11, 247, 255);
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav #t{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    background-color: rgb(131, 11, 11);
+}
+#s a{
+    position: absolute;
+    font-family:fantasy;
+    font-size: 20px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: black;
+}
+#a a{
+    /* position: absolute; */
+    font-family:fantasy;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#t a{
+    position: absolute;
+    font-family:fantasy;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: black;
+}
+    #text{
+        display: flex;
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        color: white;
+        transform: translate(-50%,-50%);
+        /* background-color: black; */
+        justify-content: center;
+    }
+    #text h1{
+        font-size: 120px;
+        font-weight: 400px;
+        
+    }
+    #text #second{
+        font-size: 120px;
+        font-weight: 400px;
+        z-index: 5;
+    }
+    #text #top{
+        position: absolute;
+        top: -40%;      
+        left: 30px;
+        font-size: 20px;
+    }
+    #text #btm{
+        position: absolute;
+        top: 170px;
+        left: 30px;
+        font-size: 20px;
+    }
+    #text img{
+        position: absolute;
+        top: -95px;
+        left: -300px;
+        width: 230%;
+        height: 230%;
+        object-fit: contain;
+        z-index: 3;   
+    }
+
+    #satyam{
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        width: 85%;
+        height: 120px;
+        /* background-color: red; */
+        margin-left: 120px;
+    }
+    #satyam #ankit{
+        position: relative;
+        width: 30%;
+        height: 100%;
+        background-color: white;
+    }
+    #satyam #harsh{
+        width: 30%;
+        height: 100%;
+        background-color:rgba(26, 23, 23, 0.411);
+    }
+    #satyam #ankit p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: fantasy;
+    }
+    #ankit #hr{
+        position: relative;
+        width: 70px;
+        height: 5px;
+        background-color: black;
+        top: 60%;
+        left: 75%;
+    }
+    #harsh p{
+        color: white;
+        margin-top: 50px;
+        margin-left: 70px;
+        font-size: 20px;
+        font-family: fantasy;
+    }
+    #img {
+        width: 40%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(26, 23, 23, 0.411);
+
+    }
+    #img img{
+        /* position: absolute; */
+        size: 50px;
+        width: 120px;
+        height: 200px;
+        border-radius: 20px;
+    }
